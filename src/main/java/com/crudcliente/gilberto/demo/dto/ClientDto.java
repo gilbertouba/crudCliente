@@ -26,6 +26,7 @@ public class ClientDto {
 	}
 	public ClientDto() {}
 	public ClientDto(Client client) {
+		this.id   =client.getId();
 		this.name = client.getNome();
 		this.cpf  = client.getCpf();
 		this.income = client.getIncome();
